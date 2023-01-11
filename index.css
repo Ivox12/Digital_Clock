@@ -1,6 +1,7 @@
 body {
     background-color:#000000d7;
     overflow: hidden;
+    max-height: 100%;
 }
 
 .container {
