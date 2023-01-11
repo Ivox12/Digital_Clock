@@ -1,0 +1,41 @@
+body {
+    background-color:#000000d7
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#clock {
+    font-family: system-ui;
+    background-color: #00000031;
+    border: 2px solid #00ff37;
+    border-radius: 3%;
+    text-shadow:2px 2px #000000;
+    color: #00ff0d;
+    text-align: center;
+    font-size: 60px;
+    height: auto;
+    width: auto;
+    max-width: 350px;
+  }
+
+.clock {
+    background-color: #FFFFFF;
+    border: 2px solid #1C6DD0;
+    color: black;
+    text-shadow: px 2px white;
+
+}
+
+#theme > #theme_ico {
+    filter: invert(1);
+    border-radius: 4px;
+    max-width: 50px;
+    max-height: 50px;
+}
